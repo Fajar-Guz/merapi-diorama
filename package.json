@@ -1,0 +1,27 @@
+{
+  "name": "merapi-diorama",
+  "version": "1.0.0",
+  "description": "Merapi Slope Village, an interactive Three.js living diorama of a Javanese village on the slope of Mount Merapi, inside a glass box.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Gustavo Jesus (https://github.com/GustavoJesuss69)",
+  "repository": { "type": "git", "url": "https://github.com/GustavoJesuss69/merapi-diorama.git" },
+  "homepage": "https://gustavojesuss69.github.io/merapi-diorama/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "render": "node render.mjs",
+    "audio": "python3 tools/audio.py",
+    "encode": "bash tools/encode.sh"
+  },
+  "dependencies": {
+    "postprocessing": "^6.39.5",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0",
+    "vite": "^8.3.4"
+  }
+}

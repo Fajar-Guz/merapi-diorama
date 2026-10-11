@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-live/
+frames/
+out/
+test*.jpg
+test*.png
+*.log
+.DS_Store
+.vite/
